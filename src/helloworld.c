@@ -1,8 +1,6 @@
 #include <windows.h>
 
-int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, PSTR lpCmdLine,
-                   int nCmdShow) {
-  MessageBox(NULL, TEXT("Hello World!"), TEXT("メッセージボックス"),
-             MB_OK);
+int wmain(int argc, wchar_t *argv[], wchar_t *envp[]) {
+  MessageBoxW(NULL, L"Hello World!", L"メッセージボックス", MB_OK);
   return 0;
 }

@@ -1,5 +1,5 @@
-CFLAGS   = -Wall -O2 -finput-charset=utf-8 -fexec-charset=CP932
-LDFLAGS  = -mwindows
+CFLAGS   = -Wall -O2
+LDFLAGS  = -municode -mwindows
 SRCDIR   = src
 OBJDIR   = obj
 BINDIR   = bin
